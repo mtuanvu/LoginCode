@@ -27,7 +27,7 @@
 import "./style.css";
 
 import { useState } from "react";
-import Input from "./input";
+import Input from "./Input";
 import Button from "./Button";
 
 import validateEmail from "./utils";

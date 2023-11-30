@@ -4,15 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StrictMode } from "react";
-import ErrorIcon from "./icons/Error";
-import ValidIcon from "./icons/Valid";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
     <App />
-    <ErrorIcon />
-    <ValidIcon />
   </StrictMode>
 );
 
